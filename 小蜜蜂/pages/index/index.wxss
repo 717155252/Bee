@@ -1,0 +1,51 @@
+/**index.wxss**/
+/* 头图轮播 */
+.title-img {
+  height: 400rpx;
+  width: 100%;
+}
+.swiper-image {
+  height: 400rpx;
+  width: 100%;
+}
+.slide-image{
+   height: 400rpx;
+   width: 100%;
+}
+
+/* 公告轮播 */
+.swiper_notice {
+  height: 55rpx;
+  width: 80vw;
+}
+
+.swiper_item {
+  font-size: 25rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  letter-spacing: 2px;
+}
+
+/* 内容容器轮播 */
+.content-swiper{
+  width: 100%
+}
+.tab-ttl{
+  width: 100%;
+  display: flex;
+  color:rgba(0, 0, 0, .5);
+}
+.tab-cur{
+  width: 50%;
+  display: block;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0 100rpx;
+  padding-bottom: 20rpx; 
+}
+
+.activit{
+  color: red;
+  border-bottom: 4rpx solid royalblue;
+  }
